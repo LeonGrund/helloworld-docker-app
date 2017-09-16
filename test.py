@@ -1,6 +1,6 @@
 import time
 print("\n***D O C K E R  T E S T  A P P  S T A R T E D***\n")
-print("   HELLO WORLD ! ! !")
+print("   HELLO WORLD !")
 ct = 0
 
 while True:
