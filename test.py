@@ -8,7 +8,7 @@ import time
 print("\n***D O C K E R  T E S T  A P P  S T A R T E D***\n")
 
 ip = '0.0.0.0'
-port = 4040
+port = 4070
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((ip, port))
@@ -17,7 +17,7 @@ s.listen(1)
 
 def helloworld(errorNum, errorType):
     header = 'HTTP/1.1 %d %s \r\nContent-Type: text/html\n' % (errorNum, errorType)
-    body = '<html>\r\n\t<head>\r\n\t\t<title>Docker-App\r\n\t\t</title>\r\n\t</head>\r\n\r\n<body>\r\n\tHello World!\r\n</body>\r\n</html>'
+    body = '<html>\r\n\t<head>\r\n\t\t<title>Docker-App\r\n\t\t</title>\r\n\t</head>\r\n\r\n<body>\r\n\tHello World!!!\r\n</body>\r\n</html>'
     msg = header + body + '\r\n\r\n'
     return msg
 
