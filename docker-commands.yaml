@@ -6,11 +6,6 @@ build:
   - NAME
   - REPO
 
-# docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
-run:
-  - docker run -d=true
-  - IMAGE_NAME
-
 # docker service create [OPTIONS] IMAGE [COMMAND] [ARG...]
 # docker service update [OPTIONS] SERVICE
 # docker service rm SERVICE [SERVICE...]
