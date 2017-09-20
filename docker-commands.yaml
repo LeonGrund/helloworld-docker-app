@@ -20,7 +20,7 @@ service:
   - service
   - create
   - -p
-  - 4070:4070
+  - 5000:5000
   - --name
   - SERVICE_NAME
   - IMAGE_NAME
