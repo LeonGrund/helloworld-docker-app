@@ -1,5 +1,5 @@
-FROM elyase/staticpython
+FROM hypriot/rpi-python
 
 COPY test.py /run
 
-CMD [ "python", "run/test.py" ]
+CMD [ "python", "/run/test.py" ]
