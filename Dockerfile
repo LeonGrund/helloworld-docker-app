@@ -1,4 +1,4 @@
-FROM hypriot/rpi-python
+FROM python
 
 COPY test.py /run
 
