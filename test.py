@@ -8,7 +8,7 @@ import time
 print("\n***D O C K E R  T E S T  A P P  S T A R T E D***\n")
 
 # ip = '0.0.0.0' # use on raspberry pi
-ip = localhost
+ip = 'localhost'
 port = 5000
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
